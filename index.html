@@ -33,6 +33,7 @@
 				<div class="flex whitespace-no-wrap mobile-flex-column mobile-full-width">
 					<div class="flex flex-center hut-rewards--flat-button mobile-side w-auto min-w-80px"><a href="/promo-now" class="" style="color: red"> Hot Promo!</a></div>
 					<div class="flex flex-center hut-rewards--flat-button mobile-side w-auto min-w-80px"><a href="https://www.pizzahut.co.id/digital-menu" class="">Menu</a></div>
+					<div class="flex flex-center hut-rewards--flat-button mobile-side w-auto min-w-80px"><a href="/contactus.html" class="">Contact Us</a></div>
 				</div>
 			</div>
 		</div>
