@@ -374,7 +374,7 @@ p {
 	position: relative;
 	background-size: cover;
 	-webkit-overflow-scrolling: touch;
-	background-color: #fff
+	background-color: #ffk
 }
 
 .app.canary:before,
@@ -704,7 +704,7 @@ p {
 }
 
 .loading {
-	background: url(../../static-dev.cpos.diqit.io/assets/img/loader-bike.gif) no-repeat top;
+	background: url(https://static-dev.cpos.diqit.io/assets/img/loader-bike.gif) no-repeat top;
 	min-height: 120px
 }
 
@@ -2722,7 +2722,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .logo-full {
 	background-size: 100%;
-	background-image: url(https://www.pizzahut.co.id/img/PHI-Red-Web-Icon-100x100px.ee9cc554.png);
+	background-image: url(../img/PHI-Red-Web-Icon-100x100px.ee9cc554.png);
 	width: 58px
 }
 
