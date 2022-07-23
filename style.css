@@ -20,3 +20,37 @@
 .bg-black {
     background-color: #000;
 }
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    border: 0 solid #e9ebee;
+}
+
+@media (min-width: 768px)
+.container {
+    max-width: 768px;
+}
+@media (min-width: 640px)
+.container {
+    max-width: 640px;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    border: 0 solid #e9ebee;
+}
