@@ -3,6 +3,45 @@
 <head>
 	<!-- try to copy style from PHD -->
 	<style>
+	.demo-bg{
+	background: #ffac0c;
+	margin-top: 60px;
+	}
+	.business-hours {
+	background: #222; 
+	padding: 40px 14px;
+	margin-top: -15px;
+	position: relative;
+	}
+	.business-hours:before{
+	content: '';
+	width: 23px;
+	height: 23px;
+	background: #111;
+	position: absolute;
+	top: 5px;
+	left: -12px;
+	transform: rotate(-45deg);
+	z-index: -1;
+	}
+	.business-hours .title {
+	font-size: 20px;
+	color: #BBB;
+	text-transform: uppercase;
+	padding-left: 5px;
+	border-left: 4px solid #ffac0c; 
+	}
+	.business-hours li {
+	color: #888;
+	line-height: 30px;
+	border-bottom: 1px solid #333; 
+	}
+	.business-hours li:last-child {
+	border-bottom: none; 
+	}
+	.business-hours .opening-hours li.today {
+	color: #ffac0c; 
+	}
 	.screen-loading {
 		position: fixed;
 		top: 0;
@@ -91,22 +130,22 @@
 						<div class="carousel-item active" data-bs-interval="10000">
 							<img src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/1.jpeg" class="d-block w-100" alt="...">
 							<div class="carousel-caption d-none d-md-block">
-								<h5>First slide label</h5>
-								<p>Some representative placeholder content for the first slide.</p>
+								<h5 style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 50px #fff, 0 0 5px #fff, 0 0 5px #fff;">PHD Mondoroko</h5>
+								<p style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 50px #fff, 0 0 5px #fff, 0 0 5px #fff;">Some representative placeholder content for the first slide.</p>
 							</div>
 						</div>
 						<div class="carousel-item" data-bs-interval="2000">
 							<img src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/1.jpeg" class="d-block w-100" alt="...">
 							<div class="carousel-caption d-none d-md-block">
-								<h5>Second slide label</h5>
-								<p>Some representative placeholder content for the second slide.</p>
+								<h5 style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 50px #fff, 0 0 5px #fff, 0 0 5px #fff;">Second slide label</h5>
+								<p style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 50px #fff, 0 0 5px #fff, 0 0 5px #fff;">Some representative placeholder content for the second slide.</p>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<img src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/1.jpeg" class="d-block w-100" alt="...">
 							<div class="carousel-caption d-none d-md-block">
-								<h5>Third slide label</h5>
-								<p>Some representative placeholder content for the third slide.</p>
+								<h5 style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 50px #fff, 0 0 5px #fff, 0 0 5px #fff;">Third slide label</h5>
+								<p style="text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 50px #fff, 0 0 5px #fff, 0 0 5px #fff;">Some representative placeholder content for the third slide.</p>
 							</div>
 						</div>
 					</div>
@@ -285,29 +324,31 @@
 				<!-- Deals-->
 
 				<!-- Order Here-->
-				<section id="order" class="container-fluid justify-content-between py-2">
+				<section id="order" class="container justify-content-between py-4 border">
 					<div class="container-fluid text-center">
 						<div class="section-tittle">
 							<h2 class="">Order Here</h2>
+							<a> Siap memesan dari PHD Mondoroko Singosari Malang? Order online untuk mendapatkan deals terbaik, GRATIS DELIVERY dan temukan semua menu!
+							</a>
 						</div>
 					</div>
 					<div class="row btn-group-lg py-2">
 						<div class="col btn">
-							<a target="_blank" rel="noopener" class="text-white fs-6 block" href="https://www.pizzahut.co.id/order/hot-promo">
+							<a target="_blank" rel="noopener" class="" href="https://www.pizzahut.co.id/order/hot-promo">
 								<span>
 									<img style="width: 100px;" class="fa mr-5" alt="PHD Site" src="https://www.pizzahut.co.id/img/PHI-Red-Web-Icon-100x100px.ee9cc554.png">
 								</span>
 							</a>
 						</div>
 						<div class="col btn">
-							<a target="_blank" rel="noopener" class="text-white fs-6 block" href="https://gofood.co.id/english/malang/restaurant/pizza-hut-delivery-phd-mondoroko-singosari-malang-46e9b868-887e-4baf-91fd-159af8b436d8">
+							<a target="_blank" rel="noopener" class="" href="https://gofood.co.id/english/malang/restaurant/pizza-hut-delivery-phd-mondoroko-singosari-malang-46e9b868-887e-4baf-91fd-159af8b436d8">
 								<span>
 									<img style="width: 100px;" class="fa mr-5" alt="Directly to GoFood" src="https://gofood.co.id/static/images/svg/go-food.svg">
 								</span>
 							</a>
 						</div>
 						<div class="col btn">
-							<a target="_blank" rel="noopener" class="text-white fs-6 block" href="https://food.grab.com/id/en/restaurant/pizza-hut-delivery-phd-mondoroko-singosari-malang-delivery/6-CY5BLVJ3RYN3NJ">
+							<a target="_blank" rel="noopener" class="" href="https://food.grab.com/id/en/restaurant/pizza-hut-delivery-phd-mondoroko-singosari-malang-delivery/6-CY5BLVJ3RYN3NJ">
 								<span>
 									<img style="width: 100px;" class="fa mr-5" alt="Directly to GrabFood" src="https://food.grab.com/static/images/logo-grabfood2.svg">
 								</span>
@@ -318,50 +359,62 @@
 				<!-- Order Here-->
 
 				<!-- Contact Us -->
-				<section id="contact" class="contact py-4">
+				<section id="contact" class="contact border py-4">
 					<div class="container text-center aos-init aos-animate" data-aos="fade-up">
 						<div class="section-title">
 							<h2 class="">Contact</h2>
 						</div>
 					</div>
 					<div class="container aos-init aos-animate" data-aos="fade-up">
-						<div class="row mt-5">
-							<div class="col-lg-4">
-								<div class="info">
-									<div class="address">
-										<i class="bi bi-geo-alt"></i>
-										<h4>Location:</h4>
-										<p>Jl. Raya Mondoroko No.134, Mondoroko, Banjararum, Kec. Singosari, Kabupaten Malang, Jawa Timur - 65153</p>
-									</div>
-									<div class="open-hours">
-										<i class="bi bi-clock"></i>
-										<h4>Open Hours:</h4>
-										<p>
-											Sunday:
-											9AM–10PM<br>
-											Monday:
-											9AM–10PM<br>
-											Tuesday:
-											9AM–10PM<br>
-											Wednesday:
-											9AM–10PM<br>
-											Thursday:
-											9AM–10PM<br>
-											Friday:
-											10AM–11PM<br>
-											Saturday:
-											10AM–11PM
-
-										</p>
-									</div>
-									<div class="CS">
-										<i class="bi bi-phone"></i>
-										<h4>Customer Services:</h4>
-										<p>085692352438 / 08113603292</p>
+						<div class="row mt-4">
+								<div class="col-lg-4">
+									<div class="section-opening-hour ">
+										<div class="text-center title-line line-header t17  pt-10 uppercase"><h4>Opening Hour</h4></div>
+										<div data-v-77bfcc0b="">
+											<div class=" flex flex-wrap">
+												<div class="hour-item"></div>
+												<div class="hour-item capitalize bold">Pickup</div>
+												<div class="hour-item capitalize bold">delivery</div>
+											</div>
+											<div class=" flex flex-wrap">
+												<div class="hour-item">Monday</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+											</div>
+											<div class=" flex flex-wrap">
+												<div class="hour-item">Tuesday</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+											</div>
+											<div class=" flex flex-wrap">
+												<div class="hour-item">Wednesday</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+											</div>
+											<div class=" flex flex-wrap">
+												<div class="hour-item">Thursday</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+											</div>
+											<div class=" flex flex-wrap">
+												<div class="hour-item">Friday</div>
+												<div class="hour-item">10:00 AM - 11:00 PM</div>
+												<div class="hour-item">10:00 AM - 11:00 PM</div>
+											</div>
+											<div class=" flex flex-wrap">
+												<div class="hour-item">Saturday</div>
+												<div class="hour-item">10:00 AM - 11:00 PM</div>
+												<div class="hour-item">10:00 AM - 11:00 PM</div>
+											</div>
+											<div class=" flex flex-wrap">
+												<div class="hour-item">Sunday</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+												<div class="hour-item">09:00 AM - 10:00 PM</div>
+											</div>
+										</div>
 									</div>
 								</div>
-							</div>
-							<div class="col-6 col-md-4 mb-3">
+							<div class="col-lg-3">
 								<h4>Connect with Us</h4>
 								<ul class="nav flex-column">
 									<li class="nav-item mb-2">
@@ -373,7 +426,7 @@
 										</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a target="_blank" rel="noopener" href="https://twitter.com/Pizza_HutID" class="fs-6 block">
+										<a target="_blank" rel="noopener" href="https://mobile.twitter.com/phdsingosari" class="fs-6 block">
 											<span>
 												<img width="26" height="26" alt="Follow us on Twitter" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCMThCQTQ5MjhBRjMxMUU3QTQ5RTk5M0NEMDgwQTkyNSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCMThCQTQ5MzhBRjMxMUU3QTQ5RTk5M0NEMDgwQTkyNSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkIxOEJBNDkwOEFGMzExRTdBNDlFOTkzQ0QwODBBOTI1IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkIxOEJBNDkxOEFGMzExRTdBNDlFOTkzQ0QwODBBOTI1Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+DQ7e0wAABDhJREFUeNqUVk1sG0UU/mZ21r+bODWNE+MKNSopRSUcixAScOC39AInhIQqhMSNQw8FCamCQwtS4cINgcQBhCrlwgUQjdQiQEhQxE+LopCgkArSgOLEsdeOf3a8O32zdlLvem01I9mzu/P2fTPf+957y87+uAFmcNhSHZ635RtrjfYzTVdlPewMxaGYnoHuFBj0THWXfGPGVFLw0mTC+PKwFXt7n4klx/MgBGf4v+U98l2xeaEivTzdgiM8VGAassRcpZgt3f1lp33yRr39xKO5xIuFJLvEIfih74vN2bJ08yISZO9D+xCMEUtung4wKxWb5j9vOme3HC9nMhbxCgvN4eud+2g7k3OUHS97pSTf5Cs1edxgGOBIoZ8zFbgiqqAi7Tr32vdqXT7Nm54aDR+mrYZTo5e3yUiLIEWeJCmn4SoC7cyqB1S7pmdZEZaSNsvGODZaLmK8n06txran8PL0CJ6bSuOOuIG/bYkPF21cKzk4cSCFnzZaKDZd3GKKQYSd6Fh98NA4LizX8OlyFSMmh8G7GqbRpJOcnsng1aOZ3fcKaQMPTiSw3nBxdbOF3+gXJZBbQJoKkt49YybOP5DF6zNjMOi57bg+PQ4ZTFkCrxzJ9DkS5OlOAiykBcbi3KexN+QBIL1x2/HwT63tr5+inX/+2CROHhrBRIKjQafZnzAQN6Jjp+Pz7h9l/LLp9NEuduPWzSESBz5asHHuWBZJIvleSu136Fpv4M+yRMsbrJRKy/NpSxjhEqKU2C0tvlSBcdrxibtSqEnlA+2MURLIsVx8qBopZ0go5K5fQ4z35o0+bZECSvWKAPdeIxbKDmquF1VdFA8UKg1GaGd+LREFDjy1N6BLaw3ywQaWpUAxIIawQmL4bMnG2nb7tkGW7TYu/9cI0N2btzyqJGvbmgscsMRtA713raxbDTiLLJeqEyMVXKF+gq9W63jp2yK+WWtiWw7n8OPFKr4g+7RgAywYE2HqdAlqyE69+mG96Yvi/mwMaTPaySdLNZz7fcuXNBuyGREupncTXc8eTOPovhjuI4CxWLT6/qU4vj9fwezKNiUwg8GiWozqsqWCCauNr5MAvl5t+LmQJgrzKQMWUaJzrER58ldF4jKpa+5GHetUeLUNwwAQ/1L5mhOqp+HvvHB1y8GVjU6GZ2IMFn1TtMlOB7tKRY904qvLEjzaeSDoneeC+olNDgI9SbOla5U2r5LzinQ7OUZ/ScEinPeCsACYPgdtqswPWuKiq6I7LOtKXetADPtoCYCowIl03Kes2ByfyZhnRk2+Kb1B7XgvI/iurnvkuzyTEW/xXFIsHi+kXhg1jaLuOZ4K7wkYtoWwneo2UJ16lBLFp/Kp5yeTsQWRiQv6WmFzj+cSD89X5WvFlvtk3VUTymeKqUG7Dcans06ZpEPtUUzWx+P84rRlni+kxEJKGLgpwAAZUcqdUMY+qAAAAABJRU5ErkJggg==" class="fa mr-5" style="width: 26px;">
 												<span>Follow us on Twitter</span>
@@ -420,8 +473,19 @@
 										</a>
 									</li>
 								</ul>
+								<div class="CS">
+									<i class="bi bi-phone"></i>
+									<h4>Customer Services:</h4>
+									<p>085692352438 / 08113603292</p>
+								</div>
 							</div>
-							<div class="col-lg-8 mt-5 mt-lg-0">
+							<div class="col-lg-5">
+
+								<div class="address">
+									<i class="bi bi-geo-alt"></i>
+									<h4>Location:</h4>
+									<p>Jl. Raya Mondoroko No.134, Mondoroko, Banjararum, Kec. Singosari, Kabupaten Malang, Jawa Timur - 65153</p>
+								</div>
 								<iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.899891315338!2d112.65825421477888!3d-7.905526394304969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd62b5e46c45e7b%3A0x5ef98dc988d13394!2sPizza%20Hut%20Delivery%20-%20PHD%20Indonesia!5e0!3m2!1sen!2sid!4v1658577568114!5m2!1sen!2sid" frameborder="0" allowfullscreen=""></iframe>
 							</div>
 						</div>
@@ -433,7 +497,7 @@
 			<!-- Footer -->
 			<div id="footer" class="bg-black text-light">
 				<footer class="bg-black ms-4 me-4 py-4">
-					<div class="row justify-content-between">
+					<div class="row justify-content-center">
 						<div class="col-6 col-md-2 mb-3">
 							<h4>ABOUT US</h4>
 							<ul class="nav flex-column">
