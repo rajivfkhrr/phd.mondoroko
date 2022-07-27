@@ -16,6 +16,10 @@
 		background-repeat: no-repeat;
 		background-position: 50%;
 	}
+	@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+	}
 	.bg-black {
 		background-color: #000;
 	}
@@ -40,10 +44,7 @@
 		background-repeat: no-repeat;
 		width: 135px;
 		height: 40px;
-	}
-	.app-bg {
-		background: transparent url(https://www.pizzahut.co.id/img/bg-app.67f30e52.jpg) 0 0;
-	}
+
 	#hero {
 		width: 100%;
 		height: 100vh;
@@ -68,7 +69,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="https://www.pizzahut.co.id/favicon.png">
     <title>PHD Malang Mondoroko</title>
 	
-	<!-- Using Bootstrap 4.6.2: https://getbootstrap.com/docs/4.6/getting-started/introduction/ -->
+	<!-- Using Bootstrap 5.2: https://getbootstrap.com/docs/5.2/getting-started/introduction/ -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 	<!-- Load fonts style after rendering the layout styles -->
@@ -304,11 +305,10 @@
 						<h2 class="">Order Here</h2>
 					</div>
 				</div>
-				<div class="container-fluid align-content-between">
+				<div class="container-fluid align-content-center">
 					<a target="_blank" rel="noopener" class="text-white fs-6 block" href="https://gofood.co.id/english/malang/restaurant/pizza-hut-delivery-phd-mondoroko-singosari-malang-46e9b868-887e-4baf-91fd-159af8b436d8">
 						<span>
 							<img class="fa mr-5" alt="Directly to GoFood" src="https://gofood.co.id/static/images/svg/go-food.svg">
-							<span>GoFood</span>
 						</span>
 					</a>
 				</div>
@@ -360,7 +360,7 @@
 							</div>
 						</div>
 						<div class="col-6 col-md-4 mb-3">
-							<h5>Connect with Us</h5>
+							<h4>Connect with Us</h4>
 							<ul class="nav flex-column">
 								<li class="nav-item mb-2">
 									<a target="_blank" rel="noopener" href="https://www.facebook.com/pizzahutindonesiaofficial" class="fs-6 block">
@@ -433,7 +433,7 @@
 				<footer class="bg-black ms-4 me-4 py-4">
 					<div class="row justify-content-between">
 						<div class="col-6 col-md-2 mb-3">
-							<h5>About Us</h5>
+							<h4>ABOUT US</h4>
 							<ul class="nav flex-column">
 								<li class="nav-item mb-2"><a href="https://www.pizzahut.co.id/about/brand-story" class="nav-link p-0 text-muted">Brand Story</a></li>
 								<li class="nav-item mb-2"><a href="https://www.pizzahut.co.id/about/csr" class="nav-link p-0 text-muted">CSR</a></li>
@@ -443,7 +443,7 @@
 							</ul>
 						</div>
 						<div class="col-6 col-md-2 mb-3">
-							<h5>My Account</h5>
+							<h4>MY ACCOUNT</h4>
 							<ul class="nav flex-column">
 								<li class="nav-item mb-2"><a href="https://www.pizzahut.co.id/ph-reward" class="nav-link p-0 text-muted">PH Rewards</a></li>
 								<li class="nav-item mb-2"><a href="https://www.pizzahut.co.id/register" class="nav-link p-0 text-muted">Sign Up</a></li>
@@ -454,7 +454,7 @@
 							</ul>
 						</div>
 						<div class="col-6 col-md-2 mb-3">
-							<h5>SERVICE & POLICIES</h5>
+							<h4>SERVICE & POLICIES</h4>
 							<ul class="nav flex-column">
 								<li class="nav-item mb-2"><a href="https://www.pizzahut.co.id/contact-us" class="nav-link p-0 text-muted">Contact Us</a></li>
 								<li class="nav-item mb-2"><a href="https://www.pizzahut.co.id/faqs" class="nav-link p-0 text-muted">FAQs</a></li>
