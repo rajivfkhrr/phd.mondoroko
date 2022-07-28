@@ -17,48 +17,11 @@
 	<!-- Load fonts style after rendering the layout styles -->
 	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400&amp;lang=en">
 	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&amp;lang=en">
-	
+	<link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+
 	<!-- try to copy style from PHD -->
 	<style>
-	.demo-bg{
-	background: #ffac0c;
-	margin-top: 60px;
-	}
-	.business-hours {
-	background: #222; 
-	padding: 40px 14px;
-	margin-top: -15px;
-	position: relative;
-	}
-	.business-hours:before{
-	content: '';
-	width: 23px;
-	height: 23px;
-	background: #111;
-	position: absolute;
-	top: 5px;
-	left: -12px;
-	transform: rotate(-45deg);
-	z-index: -1;
-	}
-	.business-hours .title {
-	font-size: 20px;
-	color: #BBB;
-	text-transform: uppercase;
-	padding-left: 5px;
-	border-left: 4px solid #ffac0c; 
-	}
-	.business-hours li {
-	color: #888;
-	line-height: 30px;
-	border-bottom: 1px solid #333; 
-	}
-	.business-hours li:last-child {
-	border-bottom: none; 
-	}
-	.business-hours .opening-hours li.today {
-	color: #ffac0c; 
-	}
+	/*PHD*/ 
 	.screen-loading {
 		position: fixed;
 		top: 0;
@@ -71,11 +34,11 @@
 		background-image: url(https://static.pizzahut.co.id/images/icons/icon_loading.gif);
 		background-repeat: no-repeat;
 		background-position: 50%;
-	}
-	@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-	}
+		}
+		@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+		}
 	.bg-black {
 		background-color: #000;
 	}
@@ -365,11 +328,11 @@
 						</div>
 					</div>
 					<div class="container row btn-group-lg py-2 align-items-center">
-						<button type="button" class="col btn border rounded-3">
+						<div class="col btn border rounded-3">
 							<a target="_blank" rel="noopener" href="https://www.pizzahut.co.id/order/hot-promo">
 								<img class="fa mr-5" style="height: 40px; width: 40px;" alt="PHD Site" src="https://www.pizzahut.co.id/img/PHI-Red-Web-Icon-100x100px.ee9cc554.png">
 							</a>
-						</button>
+						</div>
 						<div class="col btn border rounded-3">
 							<a target="_blank" rel="noopener" href="https://gofood.co.id/english/malang/restaurant/pizza-hut-delivery-phd-mondoroko-singosari-malang-46e9b868-887e-4baf-91fd-159af8b436d8">
 								<img class="fa mr-5" style="height: 40px;" alt="Directly to GoFood" src="https://gofood.co.id/static/images/svg/go-food.svg">
@@ -384,6 +347,45 @@
 				</section>
 				<!-- Order Here-->
 
+				<!-- OPEN HOURS -->
+				<section id="contact" class="contact container border rounded-3 py-4">
+					<div class="container text-center aos-init aos-animate" data-aos="fade-up">
+						<div class="opening-hours">
+							<h2 class="">Open Hours:</h2>
+						</div>
+						<col>
+							<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
+								<row class="hour-item">Monday</row>
+								<row class="hour-item">09:00 AM - 10:00 PM</row>
+							</div>
+							<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
+								<div class="hour-item">Tuesday</div>
+								<div class="hour-item">09:00 AM - 10:00 PM</div>
+							</div>
+							<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
+								<div class="hour-item">Wednesday</div>
+								<div class="hour-item">09:00 AM - 10:00 PM</div>
+							</div>
+							<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
+								<div class="hour-item">Thursday</div>
+								<div class="hour-item">09:00 AM - 10:00 PM</div>
+							</div>
+							<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
+								<div class="hour-item">Friday</div>
+								<div class="hour-item">10:00 AM - 11:00 PM</div>
+							</div>
+							<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
+								<div class="hour-item">Saturday</div>
+								<div class="hour-item">10:00 AM - 11:00 PM</div>
+							</div>
+							<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
+								<div class="hour-item">Sunday</div>
+								<div class="hour-item">09:00 AM - 10:00 PM</div>
+							</div>
+						</col>
+					</div>
+				</section>
+				<!-- OPEN HOURS -->
 				<!-- Contact Us -->
 				<section id="contact" class="contact container border rounded-3 py-4">
 					<div class="container text-center aos-init aos-animate" data-aos="fade-up">
@@ -393,43 +395,6 @@
 					</div>
 					<div class="container aos-init aos-animate" data-aos="fade-up">
 						<div class="row mt-4">
-								<div class="col-lg-4">
-									<div class="section-opening-hour ">
-										<div class="text-center title-line line-header t17  pt-10 uppercase">
-											<h4>Opening Hour:</h4>
-										</div>
-										<col>
-											<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
-												<row class="hour-item">Monday</row>
-												<row class="hour-item">09:00 AM - 10:00 PM</row>
-											</div>
-											<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
-												<div class="hour-item">Tuesday</div>
-												<div class="hour-item">09:00 AM - 10:00 PM</div>
-											</div>
-											<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
-												<div class="hour-item">Wednesday</div>
-												<div class="hour-item">09:00 AM - 10:00 PM</div>
-											</div>
-											<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
-												<div class="hour-item">Thursday</div>
-												<div class="hour-item">09:00 AM - 10:00 PM</div>
-											</div>
-											<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
-												<div class="hour-item">Friday</div>
-												<div class="hour-item">10:00 AM - 11:00 PM</div>
-											</div>
-											<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
-												<div class="hour-item">Saturday</div>
-												<div class="hour-item">10:00 AM - 11:00 PM</div>
-											</div>
-											<div class="d-flex flex-wrap justify-content-between border rounded-2 p-2">
-												<div class="hour-item">Sunday</div>
-												<div class="hour-item">09:00 AM - 10:00 PM</div>
-											</div>
-										</col>
-									</div>
-								</div>
 							<div class="col-lg-3 py-4">
 								<div class="py-2 text-center title-line line-header t17  pt-10 uppercase">
 									<h4>Customer Services:</h4>
@@ -459,10 +424,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-5">
-
+							<div class="col-lg-5 py-4">
 								<div class="address">
-									<i class="bi bi-geo-alt"></i>
 									<h4>Location:</h4>
 									<p>Jl. Raya Mondoroko No.134, Mondoroko, Banjararum, Kec. Singosari, Kabupaten Malang, Jawa Timur - 65153</p>
 								</div>
@@ -583,6 +546,12 @@
 			<!-- Footer -->
 		</div>
 	</div>
+	<script>
+		// highlight current day on opeining hours
+		$(document).ready(function() {
+		$('.opening-hours li').eq(new Date().getDay()).addClass('today');
+		});
+	</script>
 	<div class="screen-loading" style="display: none;"></div>
 	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
