@@ -2,24 +2,36 @@
 
 .anim-from-right {
     position: relative;
-    animation: from-right 2s;
+    animation: from-right 1s;
     animation-timing-function: ease;
   }
   @keyframes from-right {
+    0% {opacity: 0;}
     from {left: 1080px;}
     to {left: 0px;}
+    100% {opacity: 0.5;}
     0% {opacity: 0;}
     100% {opacity: 1;}
     
   }
 
   .anim-fadein {
-    animation-delay: 5s;
     animation: fadein 2s;
   }
   @keyframes fadein {
     0% {opacity: 0;}
     100% {opacity: 1;} 
+  }
+
+  .anim-hithere {
+    animation: hithere 1s;
+  }
+  @keyframes hithere {
+    30% { transform: scale(1.1); }
+    40%, 60% { transform: rotate(-10deg) scale(1); }
+    50% { transform: rotate(10deg) scale(1); }
+    70% { transform: rotate(0deg) scale(1); }
+    100% { transform: scale(1); }
   }
 
 /* Remove Accordion bg*/
