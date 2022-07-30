@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
+.anim-from-right {
+    position: relative;
+    animation: from-right 2s;
+    animation-timing-function: ease;
+  }
+  @keyframes from-right {
+    from {left: 1080px;}
+    to {left: 0px;}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    
+  }
+
+  .anim-fadein {
+    animation-delay: 5s;
+    animation: fadein 2s;
+  }
+  @keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;} 
+  }
+
+/* Remove Accordion bg*/
 .accordion-r {
     --bs-accordion-color: #000;
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
@@ -23,11 +46,11 @@
     --bs-accordion-active-color: #e40c0c;
   }
 
+
 /* Highlight Business Hours */
 .business-hours .opening-hours li.today {
     color: #ff0000;
 }
-/* Highlight Business Hours */
 
 
 /*PHD*/ 
