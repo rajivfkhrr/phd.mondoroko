@@ -1,8 +1,9 @@
 // Preloader
 <script>
   $(window).on('load', function () {
-    $('#loading').hide();
-  }) 
+    $('.loading').hide();
+  }
+  ) 
 </script>
 
 // highlight current day on opeining hours
