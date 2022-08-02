@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+
+
 .anim-from-right {
     position: relative;
     animation: from-right 1s;
@@ -34,6 +37,7 @@
     100% { transform: scale(1); }
   }
 
+  
 /* Remove Accordion bg*/
 .accordion-r {
     --bs-accordion-color: #000;
