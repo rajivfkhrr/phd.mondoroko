@@ -29,7 +29,7 @@
   top: 0;
   height: 100%;
   width: 51%;
-  background: #fff;
+  background: rgb(54, 0, 0);
 }
 
 .chevron:before {
