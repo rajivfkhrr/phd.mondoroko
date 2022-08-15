@@ -38,8 +38,8 @@
 			<!-- Content here -->
 			<div class="container min-vh-100">
 				<!-- Carousel -->
-				<div class="container row mt-5">
-					<div id="carouselExampleFade" class="container col carousel carousel-dark carousel-fade slide py-4" data-bs-ride="carousel">
+				<div class="row mt-4">
+					<div id="carouselExampleFade" class="anim-from-right container col carousel carousel-dark carousel-fade slide py-4 rounded-2" style="animation-duration: 1.2s;" data-bs-ride="carousel">
 						<div>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
@@ -107,20 +107,20 @@
 										<img src="assets\img\promo\13.jpeg" height="300px" class="d-block rounded-2" alt="...">
 									</div>
 								</div>
-								<button class="opacity-50 carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-								</button>
-								<button class="opacity-50 carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-								</button>
 							</div>
 						</div>
-						<div class="border carousel-indicators opacity-75 mt-2" style="position: relative">
-							<li class="list-inline-item active">
+						<button class="opacity-50 carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="opacity-50 carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+						<ul class="carousel-indicators pt-3" style="position: relative">
+														<li class="list-inline-item active">
 								<a id="carousel-selector-0" data-bs-slide-to="0" data-bs-target="#carouselExampleFade" class="selected">
-								<img src="assets\img\promo\01.jpeg" class="img-fluid">
+								<img src="assets\img\promo\01.jpeg" class="" style="width: 100%; height: auto;">
 								</a>
 							</li>
 							<li class="list-inline-item">
@@ -163,186 +163,40 @@
 								<img src="assets\img\promo\09.jpeg"  class="img-fluid">
 								</a>
 							</li>
-						</div>
+							<li class="list-inline-item">
+								<a id="carousel-selector-9" data-bs-slide-to="9" data-bs-target="#carouselExampleFade">
+								<img src="assets\img\promo\10.jpeg"  class="img-fluid">
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a id="carousel-selector-10" data-bs-slide-to="10" data-bs-target="#carouselExampleFade">
+								<img src="assets\img\promo\11.jpeg"  class="img-fluid">
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a id="carousel-selector-11" data-bs-slide-to="11" data-bs-target="#carouselExampleFade">
+								<img src="assets\img\promo\12.jpeg"  class="img-fluid">
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a id="carousel-selector-12" data-bs-slide-to="12" data-bs-target="#carouselExampleFade">
+								<img src="assets\img\promo\13.jpeg"  class="img-fluid">
+								</a>
+							</li>
+						</ul>
 					</div>
-					<div class="border container col-lg-4 d-flex align-items-center">
-						<img class="d-none d-md-block w-100 py-2 px-2" src="assets\img\qr-phds.svg" alt="QR Code">
+					<div class="anim-fadein container col-lg-4 d-flex flex-row align-items-center" style="animation-duration: 5s;">
+						<img class="d-none d-md-block w-100" src="assets\img\qr-phds.svg" alt="QR Code">
 					</div>
 				</div>
 				<!-- Carousel -->
-				<!-- btn down --
-				<div class="container">
-					<div class="scroll-container">
-						<div class="chevron"></div>
-						<div class="chevron"></div>
-						<div class="chevron"></div>
-					  </div>
-				</div>
-				<!-- btn down -->
-				<!-- Deals --
-					<div id="deals" class="container-xxl py-4">
-						<div class="container">
-							<div class="text-center wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-								<h1 class="mb-3">Our Most Popular Deals</h1>
-							</div>
-							<div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-								<ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
-									<li class="nav-item">
-										<a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
-											<i class="fa fa-coffee fa-2x text-primary"></i>
-											<div class="ps-3">
-												<small class="text-body">Popular</small>
-												<h6 class="mt-n1 mb-0">Breakfast</h6>
-											</div>
-										</a>
-									</li>
-									<li class="nav-item">
-										<a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
-											<i class="fa fa-hamburger fa-2x text-primary"></i>
-											<div class="ps-3">
-												<small class="text-body">Special</small>
-												<h6 class="mt-n1 mb-0">Launch</h6>
-											</div>
-										</a>
-									</li>
-									<li class="nav-item">
-										<a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
-											<i class="fa fa-utensils fa-2x text-primary"></i>
-											<div class="ps-3">
-												<small class="text-body">Lovely</small>
-												<h6 class="mt-n1 mb-0">Dinner</h6>
-											</div>
-										</a>
-									</li>
-								</ul>
-								<div class="tab-content">
-									<div id="tab-1" class="tab-pane fade show p-0 active">
-										<div class="row g-4">
-											<div class="col-lg-6">
-												<div class="d-flex align-items-center">
-													<img class="flex-shrink-0 img-fluid rounded" src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/specials-1.png" alt="" style="width: 80px;">
-													<div class="w-100 d-flex flex-column text-start ps-4">
-														<h5 class="d-flex justify-content-between border-bottom pb-2">
-															<span>Pizza 11</span>
-															<span class="text-primary">$115</span>
-														</h5>
-														<small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-6">
-												<div class="d-flex align-items-center">
-													<img class="flex-shrink-0 img-fluid rounded" src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/specials-1.png" alt="" style="width: 80px;">
-													<div class="w-100 d-flex flex-column text-start ps-4">
-														<h5 class="d-flex justify-content-between border-bottom pb-2">
-															<span>Pizza 12</span>
-															<span class="text-primary">$115</span>
-														</h5>
-														<small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-6">
-												<div class="d-flex align-items-center">
-													<img class="flex-shrink-0 img-fluid rounded" src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/specials-1.png" alt="" style="width: 80px;">
-													<div class="w-100 d-flex flex-column text-start ps-4">
-														<h5 class="d-flex justify-content-between border-bottom pb-2">
-															<span>Pizza 13</span>
-															<span class="text-primary">$115</span>
-														</h5>
-														<small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div id="tab-2" class="tab-pane fade show p-0">
-										<div class="row g-4">
-											<div class="col-lg-6">
-												<div class="d-flex align-items-center">
-													<img class="flex-shrink-0 img-fluid rounded" src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/specials-1.png" alt="" style="width: 80px;">
-													<div class="w-100 d-flex flex-column text-start ps-4">
-														<h5 class="d-flex justify-content-between border-bottom pb-2">
-															<span>Pizza 21</span>
-															<span class="text-primary">$115</span>
-														</h5>
-														<small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-6">
-												<div class="d-flex align-items-center">
-													<img class="flex-shrink-0 img-fluid rounded" src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/specials-1.png" alt="" style="width: 80px;">
-													<div class="w-100 d-flex flex-column text-start ps-4">
-														<h5 class="d-flex justify-content-between border-bottom pb-2">
-															<span>Pizza 22</span>
-															<span class="text-primary">$115</span>
-														</h5>
-														<small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-6">
-												<div class="d-flex align-items-center">
-													<img class="flex-shrink-0 img-fluid rounded" src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/specials-1.png" alt="" style="width: 80px;">
-													<div class="w-100 d-flex flex-column text-start ps-4">
-														<h5 class="d-flex justify-content-between border-bottom pb-2">
-															<span>Pizza 23</span>
-															<span class="text-primary">$115</span>
-														</h5>
-														<small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div id="tab-3" class="tab-pane fade show p-0">
-										<div class="row g-4">
-											<div class="col-lg-6">
-												<div class="d-flex align-items-center">
-													<img class="flex-shrink-0 img-fluid rounded" src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/specials-1.png" alt="" style="width: 80px;">
-													<div class="w-100 d-flex flex-column text-start ps-4">
-														<h5 class="d-flex justify-content-between border-bottom pb-2">
-															<span>Pizza 31</span>
-															<span class="text-primary">$115</span>
-														</h5>
-														<small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-6">
-												<div class="d-flex align-items-center">
-													<img class="flex-shrink-0 img-fluid rounded" src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/specials-1.png" alt="" style="width: 80px;">
-													<div class="w-100 d-flex flex-column text-start ps-4">
-														<h5 class="d-flex justify-content-between border-bottom pb-2">
-															<span>Pizza 32</span>
-															<span class="text-primary">$115</span>
-														</h5>
-														<small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-													</div>
-												</div>
-											</div>
-											<div class="col-lg-6">
-												<div class="d-flex align-items-center">
-													<img class="flex-shrink-0 img-fluid rounded" src="https://raw.githubusercontent.com/rajivfkhrr/phd.mondoroko/gh-pages/assets/img/specials-1.png" alt="" style="width: 80px;">
-													<div class="w-100 d-flex flex-column text-start ps-4">
-														<h5 class="d-flex justify-content-between border-bottom pb-2">
-															<span>Pizza 33</span>
-															<span class="text-primary">$115</span>
-														</h5>
-														<small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Deals-->
+
+				<!-- Carousel NEW -->
+
+				<!-- Carousel NEW -->
+
 				<!-- Order Here-->
-				<section id="order-here" style="animation-duration: 2s;" class="anim-hithere container mt-4">
+				<section id="order-here" style="animation-duration: 2s;" class="anim-hithere anim-fadein container mt-4">
 					<div class="container bg-light bg-opacity-75 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px 0px;">
 						<div class="container text-center py-4 px-4 mt-lg-5">
 							<p class="py-lg-4"> <strong>Siap memesan Pizza dari Singosari Malang?</strong> Order online untuk mendapatkan deals terbaik, <strong>GRATIS DELIVERY</strong> dan temukan semua menu!
@@ -514,13 +368,13 @@
 						</div>
 					</div>
 					<!-- Contact Us -->
-					<!-- Connect --
+					<!-- Connect -->
 						<div class="accordion-item">
-							<h2 class="accordion-header" id="flush-headingThree">
-								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-								<strong>Connect with Us</strong>
-								</button>
-							</h2>
+							<div class="accordion-header" id="flush-headingThree">
+								<div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+									<h5 class="opacity-75">Connect with Us</h5>
+								</div>
+							</div>
 							<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
 								<div class="container row d-flex justify-content-between py-2">
 									<div class="card col-5" style="width: 18rem;">
@@ -558,7 +412,7 @@
 			<!-- Footer -->
 			<footer class="bg-black mt-4">
 				<div class="d-flex flex-column flex-sm-row justify-content-center py-2 my-2 border-top text-muted text-11">
-					<a>Copyright © Real Pizza Mondoroko Singosari Malang. All Rights Reserved. | Photos are for reference only</a>
+					<a>Copyright © Pizza Hut Delivery Singosari Malang. All Rights Reserved. | Photos are for reference only</a>
 				</div>
 			</footer>
 			<!-- Footer -->
