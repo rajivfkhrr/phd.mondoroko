@@ -12,9 +12,9 @@
 		<meta name="copyright" content="Pizza Hur Delivery Mondoroko Malang">
 		<meta name="robots" content="index, follow">
 		<meta name="rating" content="safe for kids">
-		<link rel="icon" href="https://www.pizzahut.co.id/favicon.png">
+		<link rel="icon" href="assets\img\favicon.png">
 		<!-- Using custom style and Bootstrap 5.2: https://getbootstrap.com/docs/5.2/getting-started/introduction/ -->
-		<link href="assets\bootstrap-5.2\css\bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets\bootstrap-5.2\css\bootstrap.min.css">
 		<link rel="stylesheet" href="style.css">
 		<!-- Load fonts style after rendering the layout styles -->
 		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans+Text:400&amp;text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&amp;lang=en">
@@ -36,7 +36,7 @@
 			<div class="container min-vh-100">
 				<!-- Carousel -->
 				<div class="row mt-4">
-					<div id="carouselExampleFade" class="anim-from-right container col carousel carousel-dark carousel-fade slide py-4 rounded-2" style="animation-duration: 1.2s;" data-bs-ride="carousel">
+					<div id="carouselExampleFade" class="anim-from-right container col carousel carousel-dark carousel-slide slide py-4 rounded-2" style="animation-duration: 1.2s;" data-bs-ride="carousel">
 						<div>
 							<div class="carousel-inner">
 								<div class="carousel-item active">
@@ -182,19 +182,26 @@
 							</li>
 						</ul>
 					</div>
-					<div class="anim-fadein container col-lg-4 d-flex flex-row align-items-center" style="animation-duration: 5s;">
+					<div id="QRCODE" class="anim-fadein container col-lg-4 d-flex flex-row align-items-center" style="animation-duration: 5s;">
 						<img class="d-none d-md-block w-100" src="assets\img\qr-phds.svg" alt="QR Code">
 					</div>
 				</div>
 				<!-- Carousel -->
 
-				<!-- Carousel NEW -->
+				<!-- COUPONS -->
 
-				<!-- Carousel NEW -->
+				<!-- END COUPONS -->
 
-				<!-- Order Here-->
-				<section id="order-here" style="animation-duration: 2s;" class="anim-hithere anim-fadein container mt-4">
-					<div class="container bg-light bg-opacity-75 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px 0px;">
+				<!-- Order Here with COUPON-->
+				<section id="order-here" class="anim-hithere anim-fadein container row mt-4" style="animation-duration: 2s;">
+					<div class="col-lg-4 card py-4 px-4 text-center border">
+						<img class="border card-img-top w-100"  src="assets\img\promo\Kupon.jpg"alt="Kupon">
+						<div class="card-body border">
+							<p class="card-text">Mau <i>dine in?</i> Download dan tukarkan kupon di kasir untuk mendapatkan diskon...</p>
+							<a target="_blank" rel="noopener" href="assets\img\promo\Kupon.jpg" class="btn btn-primary">Download</a>
+						</div>
+				  	</div>
+					<div class="container col bg-light bg-opacity-75 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 5px 0px;">
 						<div class="container text-center py-4 px-4 mt-lg-5">
 							<p class="py-lg-4"> <strong>Siap memesan Pizza dari Singosari Malang?</strong> Order online untuk mendapatkan deals terbaik, <strong>GRATIS DELIVERY</strong> dan temukan semua menu!
 							</p>
